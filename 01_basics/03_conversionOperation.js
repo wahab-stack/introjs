@@ -27,6 +27,40 @@ let booleanIsLoggedIn = Boolean (isLoggedIn)
 
 let Anumber = 23
 let StringNumber = String (Anumber)
-console.log(StringNumber);
-console.log(typeof StringNumber);
+// console.log(StringNumber);
+// console.log(typeof StringNumber);
+
+
+//***************Operation*******************//
+
+let value = 3
+let Negvalue = -value
+console.log(Negvalue);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 3);
+// console.log(2 / 2);
+// console.log(2 % 2);
+
+
+let str1 = "abdul"
+let str2 = " wahab"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "2");
+
+// console.log(true);
+// console.log(+true);
+
+let gameCounter = 100
+++gameCounter // prefix operator
+gameCounter++ // postfix operator
+console.log(gameCounter);
+
+
 
