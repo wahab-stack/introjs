@@ -1,2 +1,2 @@
 # intro-js
-a code repo for javascript series
+a code repo for 
