@@ -1,6 +1,6 @@
 // questions must ask in interveiws
 
-//  Primitive
+//  Primitive types
 
 //  7 types : 
 // String----------"custome message"
@@ -18,7 +18,7 @@ const isLoggedIn = false   //Boolean type
 const outsideTemp = null   //empty temperature for e-g '0'
 let userEmail;             //undefined value in terminal
 
-const id = Symbol('123')   //(unique ID)usage in front-end libraries
+const id = Symbol('123')   //(unique ID)usage in  front-end libraries
 const anotherId = Symbol('123') 
 
 console.log(id === anotherId);
@@ -27,8 +27,7 @@ console.log(id === anotherId);
 
 
 
-// Reference or (Non primitive)
-
+// Reference or (Non primitive) types
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
@@ -42,5 +41,3 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
-
-//  https://262.ecma-international.org/5.1/#sec-11.4.3
