@@ -33,14 +33,17 @@ console.log(id === anotherId);
 // Reference or (Non primitive) types
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["Spiderman", "X-Men", "Batman"];
 let myObj = {
-    name: "hitesh",
+    name: "Abdul",
     age: 22,
 }
+// console.log(heros);
+
+
 
 const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.log(typeof myFunction);
