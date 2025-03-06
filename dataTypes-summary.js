@@ -19,7 +19,7 @@ const outsideTemp = null   //empty temperature for e-g '0'
 let userEmail;             //undefined value in terminal
 
 const id = Symbol('123')   //(unique ID)usage in front-end libraries
-const anotherId = Symbol('123')
+const anotherId = Symbol('123') 
 
 console.log(id === anotherId);
 
