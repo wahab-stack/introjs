@@ -47,3 +47,30 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//Stack(primitive)  Heap(Non-primitive)
+// whenever stack memory is using, variable you have decleared, you get a copy of it and whatever a memory is defined inside heap, any object or anything goes inside heap, from there you get the reference of the original value //
+
+let myYoutubename = "ABDEE"
+let anothername = myYoutubename
+anothername = "Abdul"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "wahab@google.com",
+    Password: "abde1437"
+}
+let userTwo = userOne
+userTwo.email = "Dul@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
