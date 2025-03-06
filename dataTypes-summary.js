@@ -4,15 +4,18 @@
 
 //  7 types : 
 // String----------"custome message"
-//  Number------1234 
+// Number------1234 
 // Boolearn------true & false
-//  null-------empty or nothing 
+// null-------empty or nothing 
 // undefined----- what value declearation
 // Symbol ------to make value unique espacially in avdvance js 
 // BigInt-----scientific values
 
 const score = 100         //number
 const scoreValue = 100.3  //number
+let myself = "Abdul wahab" // string
+console.log(myself);
+
 
 const isLoggedIn = false   //Boolean type
 const outsideTemp = null   //empty temperature for e-g '0'
