@@ -14,3 +14,8 @@ let myCreatedDate = new Date("2025-03-07")
 console.log(myCreatedDate);
 console.log(myCreatedDate.toDateString());
 console.log(myCreatedDate.toLocaleString());
+
+myCreatedDate.toLocaleString('default',{
+    weekday:"long"
+
+}) // for more custimization
