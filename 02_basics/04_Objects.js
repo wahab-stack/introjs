@@ -45,12 +45,44 @@ const users =[
 ]
 
 // users[1].email
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));  // these show tinderuser values , keys , entries in it
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));  // these show tinderuser values , keys , entries in it
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn')); // for checking the property of avlue in terminal 
+// console.log(tinderuser.hasOwnProperty('isLoggedIn')); // for checking the property of avlue in terminal 
 
 
+const course = {
+    coursename: "Learn javascript ",
+    price : "999",
+    courseInstructor: "Abdul"
+}
+// console.log(course);
+
+
+
+//course.courseInstructor  //syntax vice
+
+// const {courseInstructor } = course
+// console.log(courseInstructor);       // another way 
+
+const {courseInstructor: instructor } = course
+// console.log(instructor);
+
+
+
+// {
+//     "name": "Abdul",
+//     "coursename": "Js",
+//     "price": "free"
+// }
+
+//+++++++ array type +++++++++
+
+[
+    {},
+    {},
+    {}
+]
