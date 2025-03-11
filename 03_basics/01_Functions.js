@@ -109,4 +109,43 @@ function loginUserMessage (username = "Ali"){
     return `${username} Just looged in`
 
 }
-console.log(loginUserMessage("Wahab"));  //output : Wahab just logged in (overide ali by wahab) 
+// console.log(loginUserMessage("Wahab"));  //output : Wahab just logged in (overide ali by wahab) 
+
+
+
+ function calculateCartPrice(...num1){
+        return num1
+ }
+// console.log(calculateCartPrice(200, 3 , 5));
+
+
+//+++++++++++ Method ++++++++++++
+// object handle by function
+
+
+const user = {
+    username:"abdul",
+    price:"999"
+}
+function  handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+         
+}
+// handleObject(user)
+// or
+handleObject({
+    username:"wahab",
+    price : "500"
+})
+
+
+//++++ Array passing +++++
+
+const myNewArray = [200, 300, 500, 900]
+
+function returnSecondValue(getArray){
+    return getArray[1]     // second value lieson index 1 
+}
+
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([200, 30, 500, 600]));
